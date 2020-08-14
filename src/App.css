@@ -1,0 +1,14 @@
+html,body {
+  background: #111;
+  color: #fefefe;
+}
+
+.app {
+  font-family: monospace;
+  max-width: 800px;
+  margin: 3em auto;
+}
+
+.todo-item {
+  margin: 1em auto;
+}
