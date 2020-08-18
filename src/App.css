@@ -1,6 +1,33 @@
+:root {
+  --peach: #fff1e8;
+  --pink: #fdaba2;
+  --purple: #675baa;
+}
+
 html,body {
-  background: #111;
-  color: #fefefe;
+  background: var(--peach);
+  color: var(--purple);
+}
+
+button, input {
+  font-family: monospace;
+  font-size: 1.25em;
+}
+
+button, input[type=submit] {
+  background: var(--purple);
+  border: none;
+  border-radius: 2px;
+  color: var(--peach);
+  filter: drop-shadow(2px 2px 0 var(--pink));
+  padding: auto 0.5em;
+}
+button:hover, input[type=submit]:hover {
+  cursor: pointer;
+}
+button:active, input[type=submit]:active {
+  filter: none;
+  transform: translate(2px, 2px);
 }
 
 .app {

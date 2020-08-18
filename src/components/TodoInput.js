@@ -10,8 +10,8 @@ const TodoInput = ({ addTodo }) => {
 
   return (
     <form action="" onSubmit={submit}>
-      <input value={text} onChange={(e) => setText(e.target.value)} />
-      <input type="submit" value="Add Todo" />
+      <input required value={text} onChange={(e) => setText(e.target.value)} />
+      <input style={{ marginLeft: '1em' }}type="submit" value="Add Todo" />
     </form>
   );
 };
