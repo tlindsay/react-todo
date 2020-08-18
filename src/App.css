@@ -36,6 +36,24 @@ button:active, input[type=submit]:active {
   margin: 3em auto;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.badge {
+  background: var(--purple);
+  border: 3px solid var(--pink);
+  border-radius: 50%;
+  color: var(--peach);
+  display: inline-block;
+  filter: drop-shadow(0 0 0.1px var(--purple));
+  height: 1em;
+  padding-bottom: 0.1em;
+  text-align: center;
+  width: 1.1em;
+}
+
 .todo-item {
   margin: 1em auto;
 }
